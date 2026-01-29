@@ -1,12 +1,13 @@
 variable "AWS_ACCESS_KEY_ID" {
-  description = "AKIAQYM3OQF6KQHQTP4A"
+  description = "AWS access key"
   type        = string
   default     = ""
 }
 
 variable "AWS_SECRET_ACCESS_KEY" {
-  description = "Kc0hWBXkW8hOV2ajO2TlaJgQT+wKLXcjS6V3Ai0T"
+  description = "AWS Secret Access Key"
   type        = string
   sensitive   = true
   default     = ""
 }
+
